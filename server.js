@@ -65,6 +65,6 @@ try {
   } catch (error) {
     console.error(error)};
 
-const port = process.env.PORT || 5050
+const port = process.env.PORT || 6969
 
 app.listen(port, () => console.log(`Server listening on ${port}`))
