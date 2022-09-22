@@ -63,7 +63,7 @@ app.delete('/api/students/:index', (req, res) => {
 try {
     nonExistentFunction();
   } catch (error) {
-    console.error(error);
+    console.error(error)};
 
 const port = process.env.PORT || 5050
 
